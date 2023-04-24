@@ -20,6 +20,15 @@
     font-family: fantasy, cursive;
 }
 
+
+@media (max-width:768px) {
+
+    .header { 
+        text-align: center;
+    }
+
+}
+
 ul {
     margin:0;
     padding: 0px;
@@ -33,14 +42,6 @@ h3 {
 input,
 button{
     outline:none;
-}
-
-@media (max-width:768px) {
-
-    .header { 
-        text-align: center;
-    }
-
 }
 
 .main {
